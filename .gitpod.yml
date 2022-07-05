@@ -1,0 +1,15 @@
+image:
+  file: .gitpod/Dockerfile
+
+vscode:
+  extensions:
+    - golang.go
+    - ms-azuretools.vscode-docker
+    - bazelbuild.vscode-bazel
+    - rust-lang.rust
+
+tasks:
+  - init: make init
+    command: make start
+
+
